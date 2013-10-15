@@ -1,0 +1,12 @@
+{application, aes_ige,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { aes_ige_app, []}},
+  {env, []}
+ ]}.
